@@ -15,7 +15,7 @@
 
   header {
     background-color: #111827;
-    padding: 20px;
+    padding: 40px 20px;
     text-align: center;
   }
 
@@ -24,7 +24,7 @@
   }
 
   section {
-    padding: 20px;
+    padding: 40px 20px;
     border-bottom: 1px solid #333;
   }
 
@@ -61,10 +61,34 @@
 button:hover {
   background-color: #16a34a;
 }
+.services {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.services div {
+  background: #1f2937;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 150px;
+  text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.6;
+}
 </style>
         <title>Junebug Outdoor Care</title>
     </head>
     <body>
+        <div class="container">
     <header>
     <h1>Junebug Outdoor Care</h1>
 
@@ -73,12 +97,14 @@ button:hover {
 
     <section>
     <h2>Services</h2>
-    <ul>
-        <li>Lawn Mowing</li>
-        <li>Landscaping</li>
-        <li>Removal</li>
-        <li>Pressure Washing</li>
-    </ul>
+        <div class="services">
+        <div>Lawn Mowing</div>
+        <div>Landscaping</div>
+        <div>Removal</div>
+        <div>Pressure Washing</div>
+        <div>Gutter Cleaning</div>
+        <div>Junk Removal</div>
+    </div>
     </section>
     <section>
     <h2>Contact</h2>
@@ -90,6 +116,7 @@ button:hover {
         <h2>Our Work</h2>
         <p>Check out some of our recent jobs.</p>
         <img src="lawn.jpg" alt="Lawn Mowing Job">
-    </section>
+    </section></body> 
+</div>
 </body>
 </html>

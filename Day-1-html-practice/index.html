@@ -15,12 +15,15 @@
 
   header {
     background-color: #111827;
-    padding: 40px 20px;
+    padding: 60px 20px;
     text-align: center;
+    border-bottom: 1px solid #333;
   }
 
   h1 {
     color: #22c55e;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
   }
 
   section {
@@ -52,10 +55,12 @@
   button {
     background-color: #22c55e;
     color: black;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
 }
 
 button:hover {
@@ -84,6 +89,21 @@ button:hover {
 p {
     line-height: 1.6;
 }
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #22c55e;
+}
 </style>
         <title>Junebug Outdoor Care</title>
     </head>
@@ -92,9 +112,10 @@ p {
     <header>
         <nav>
             <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Why Us</a>
-            <a href="#">Contact</a>
+            <a href="#services">Services</a>
+            <a href="#why-us">Why Us</a>
+            <a href="#our-work">Our Work</a>
+            <a href="#contact">Contact</a>
         </nav>
     <h1>Junebug Outdoor Care</h1>
 
@@ -102,7 +123,7 @@ p {
     <button>Get a Free Quote</button>
     </header>
 
-    <section>
+    <section id="services">
     <h2>Services</h2>
         <div class="services">
         <div>Lawn Mowing</div>
@@ -113,11 +134,11 @@ p {
         <div>Junk Removal</div>
     </div>
     </section>
-    <section>
+    <section id="contact">
     <h2>Contact</h2>
     <p>Call: 260-257-2850</p>
     </section>
-
+    <button>Get a Free Quote</button>
 
     <section>
         <h2>Our Work</h2>

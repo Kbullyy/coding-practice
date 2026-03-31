@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <style>
+            body{
+                background-color: darkgreen;
+                color: white;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            header{
+                background-color: black;
+                padding: 40px 20px;
+                text-align: center;
+                border-bottom: 1px solid white;
+            }
+
+            h1 {
+                color: yellow;
+                font-size: 2.5rem;
+                margin-bottom: 8px;
+            }
+
+            section {
+                padding: 40px 20px;
+                border-bottom: 3px solid white;
+            }
+
+            h2 {
+                color: yellow;
+            }
+
+            button {
+                background-color: green;
+                color: white;
+                padding: 10px 20px;
+                border: 2px solid white;
+                border-radius: 5px;
+                cursor: pointer;
+                font-weight: bold;
+                margin-top: 12px;
+            }
+
+            button:hover {
+                background-color: black;
+            }
+
+            .services {
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+            }
+
+            .services div {
+                background: black;
+                padding: 15px;
+                border-radius: 6px;
+                flex: 1;
+                min-width: 150px;
+                text-align: center;
+            }
+
+            .container {
+                max-width: 1500px;
+                margin: 0 auto;
+                border: 2px solid white;
+                border-radius: 10px;
+            }
+
+            p {
+                line-height: 1.4;
+            }
+
+            nav {
+                margin-bottom: 20px;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 10px;
+                font-weight: bold;
+            }
+
+            nav a:hover {
+                color: green;
+            }
+
+            @media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  header {
+    padding: 40px 15px;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+        </style>
+        <title>Junebug Outdoor Care LLC</title>
+    </head>
+    <body>
+        <div class="container">
+        <header>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#services">Services</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#our-work">Our Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <h1>Junebug Outdoor Care LLC</h1>
+        
+        <section id="services">Services</section>
+        <p>We offer a variety of outdoor services to keep your property looking its best!</p>
+        <button>Get a Free Quote</button>
+    </header>
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="services">
+            <div>Lawn Mowing</div>
+            <div>Landscaping</div>
+            <div>Pressure Washing</div>
+            <div>Gutter Cleaning</div>
+            <div>Junk Removal</div>
+            <div>Removal</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>260-257-2850</p>
+        <p>Email: junebugcare60@gmail.com</p>
+     
+    </section>
+    </body>

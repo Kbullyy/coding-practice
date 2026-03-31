@@ -25,3 +25,15 @@ This repository tracks my daily coding practice as I refresh and build my skills
 - Added container for centered layout
 - Improved spacing and alignment
 - Added hover animations for better UI
+
+### Day 5 - Navigation and Hero Section
+- Added navigation bar
+- Connected sections using anchor links
+- Created a hero-style header with call-to-action button
+
+### Day 6 - Responsive Design
+- Added media query for smaller screens
+- Improved layout for mobile devices
+
+### Day 7 - Rebuild with short help peek
+- Rebuilt the way I like it to the best of my ability while peeking back at notes
